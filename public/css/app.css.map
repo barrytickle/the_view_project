@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.scss"],"names":[],"mappings":"AAGA;EACI,WAAU;EACV,UAAS,EACZ","file":"app.css","sourcesContent":["\n// Traditional Code\n\n*{\n    padding:0;\n    margin:0;\n}"],"sourceRoot":"/source/"}
