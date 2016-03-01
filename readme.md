@@ -25,3 +25,50 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+# the_view_project
+
+
+#The database system
+Content Table (News, Jobs, Blogs)
+    Columns
+    Content_ID
+    Title
+    Content
+    timestamp  
+Site_Content
+    Content_ID
+    Category_ID
+    Author_ID
+Category_Table
+    Category_ID
+    Category_Name
+    Category_Description
+User_Comments Table
+    Columns
+    Comment_ID
+    User_ID
+    Post_ID
+Comments Table
+    Columns
+    Comment_ID
+    Comment  
+Users Table
+    Columns
+    User_ID
+    User_Email
+    User_Password
+    First_Name
+    Last_Name
+    Username
+    pp_location (profile picture)
+Admin Table
+    Admin_ID
+    User_ID
+    Password
+Permissions Table
+    Permission_ID
+    Permission Name
+Images Table
+    Image_ID
+    Post_ID
+    Image_location

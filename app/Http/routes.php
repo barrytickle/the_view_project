@@ -12,6 +12,8 @@
 */
 
 Route::resource('/','HomeController');
+Route::resource('/login','login');
+Route::resource('/register','register');
 /*
 |--------------------------------------------------------------------------
 | Application Routes

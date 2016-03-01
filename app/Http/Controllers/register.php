@@ -6,9 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\content_table;
 
-class HomeController extends Controller
+class register extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -17,8 +16,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $content = content_table::all();
-        return view('home', ['content' => $content]);
+        return view('authentication.register');
     }
 
     /**
